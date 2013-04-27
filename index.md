@@ -5,7 +5,17 @@ tagline:
 ---
 {% include JB/setup %}
 
-This blogs serves as my soapbox, where I can talk about all of the cool things I've learned and am learning. It has been great to learn about Ruby on Rails and fundamental programming on a professional level over the last year. As the end of my apprenticeship approaches, I look forward to exploring further into the depths of this trade. 
+I write code for an educational company in San Antonio Texas where I get to work with the following frameworks and technologies: 
+
+* Ruby on Rails
+* Backbone.js
+* CoffeeScript
+
+For the past year I've been employed as an apprentice, and it's been a fantastic learning experience. 
+
+This blogs serves as the place where I can talk about all of the cool things I've learned and am learning. As the end of my apprenticeship approaches, I look forward to exploring further into the depths of this trade.
+
+Check out my posts:
 
 <ul class="posts">
   {% for post in site.posts %}
