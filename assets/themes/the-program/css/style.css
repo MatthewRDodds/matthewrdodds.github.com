@@ -602,7 +602,7 @@ pre {
 .the-header .nav-global .logo {
   text-transform: none;
 }
-.the-header .nav-global .forkme {
+.the-header .nav-global {
   position: relative;
   top: 2px;
 }
