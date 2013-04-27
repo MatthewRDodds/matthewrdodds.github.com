@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: This is my blog.
 tagline:
 ---
 {% include JB/setup %}
