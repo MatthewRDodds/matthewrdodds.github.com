@@ -14,7 +14,7 @@ I write code for an educational company in San Antonio Texas where I get to work
 
 For the past year I've been employed as an apprentice. It's been a pretty fantastic learning experience. 
 
-This blogs serves as the place where I can talk about all of the cool things I've learned and am currently learning. As the end of my apprenticeship approaches, I look forward to exploring further into the depths of this trade.
+For this blog I will attempt to log at least one thing I have learned each day for reference later.
 
 Check out my posts:
 
