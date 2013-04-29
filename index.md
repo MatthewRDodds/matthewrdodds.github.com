@@ -7,10 +7,10 @@ tagline:
 
 I write code for an educational company in San Antonio Texas where I get to work with the following frameworks and technologies: 
 
-  * Ruby on Rails
-  * Backbone.js
-  * CoffeeScript
-  * TDD
+    * Ruby on Rails
+    * Backbone.js
+    * CoffeeScript
+    * TDD
 
 For the past year I've been employed as an apprentice. It's been a pretty fantastic learning experience. 
 
