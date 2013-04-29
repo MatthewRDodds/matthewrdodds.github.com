@@ -1,7 +1,7 @@
   ---
 layout: post
 category : networking
-tagline: "Supporting tagline"
+tagline: ""
 tags : [networking, soft skills]
 ---
 {% include JB/setup %}
