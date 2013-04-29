@@ -29,9 +29,9 @@ production_url : http://username.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
-markdown: redcarpet2
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+markdown: redcarpet
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 JB :
   version : 0.3.0
 
