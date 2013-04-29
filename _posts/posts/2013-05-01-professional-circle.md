@@ -1,3 +1,11 @@
+  ---
+layout: post
+category :
+tagline:
+tags : [networking, soft skills]
+---
+{% include JB/setup %}
+
 ### The importance of networking
 
 Even in a field like programming, or any other engineering discipline where soft skills aren't necessarily a make or break metric of job performance, networking is invaluable. 
