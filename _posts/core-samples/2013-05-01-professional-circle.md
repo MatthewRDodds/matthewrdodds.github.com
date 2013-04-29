@@ -1,8 +1,8 @@
   ---
 layout: post
-category : networking
-tagline: ""
-tags : [networking, soft skills]
+category : lessons
+tagline: "Supporting tagline"
+tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
 
