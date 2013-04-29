@@ -14,4 +14,4 @@ I write code for an educational company in San Antonio Texas where I get to work
 
 For the past year I've been employed as an apprentice. It's been a pretty fantastic learning experience. 
 
-For this blog I will attempt to log at least one thing I have learned each day for reference later.
+For this blog I will attempt to log at least one thing I have learned each day.
