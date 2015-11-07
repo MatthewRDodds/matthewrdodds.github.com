@@ -3,6 +3,8 @@ layout: post
 title:  "Mac Address Spoofing"
 date:   2015-11-06 23:17:33 -0600
 categories: security
+desc: Learning how to spoof mac addresses
+keywords: security, web, internet, networking, software, mac address spoofing
 ---
 The first thing I wanted to figure out that how to spoof my mac address. While this was easy to do on OS X with the default adapter, it was actually a difficult ordeal with [no resolution](http://apple.stackexchange.com/questions/157204/how-to-spoof-a-usb-ethernet-adaptor-mac-address-in-os-x) for my Alfa 802.11 USB adapter.
 
