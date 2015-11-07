@@ -14,7 +14,13 @@
     <meta name="keywords" content="software, developer, web, internet, ruby, ruby on rails, blog" />
   {% endif %}
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% if page.title %}
+  <title>{{ page.title }}</title>
+  <meta name="title" content="{{ page.title }}" />
+  {% else %}
+  <title>{{ site.title }}</title>
+  <meta name="title" content="{{ site.title }}" />
+  {% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
