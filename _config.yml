@@ -1,4 +1,4 @@
-title: Matthew Dodds Blog
+title: Matt Dodds Blog
 email: matthewrusselldodds@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Blog about software, design patterns, frameworks, interesting problems,
@@ -10,5 +10,6 @@ github_username:  MatthewRDodds
 
 # Build settings
 highlighter: pygments
+# highlighter: rouge
 markdown: kramdown
 permalink: pretty
