@@ -10,10 +10,15 @@
     position: relative;
 }
 
+.top-nav {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
+    // line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
