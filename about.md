@@ -2,7 +2,12 @@
 layout: page
 title: About
 permalink: /about/
+image: /images/profile.jpg
 ---
+<div class="text-centered">
+  <img src="/images/profile.jpg" class="img-circle profile-pic center-block">
+</div>
+
 There is something incredibly fascinating about the idea of translating a concept into reality, making the unseen visible. That is the job of software developers. They make things.
 
 I'm Matthew Dodds, and I have the privilege of working [as a Ruby on Rails Developer](http://20spokes.com). I get to learn about technology everyday and enhance my skills as a technologist and as a software craftsman.
