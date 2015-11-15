@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working In React"
-date:   2015-11-06 23:17:33 -0600
+date:   2015-11-15 23:17:33 -0600
 categories: react
 desc: Learning how to spoof mac addresses
 keywords: react, reactjs, web, internet, javascript, design, redux
@@ -33,7 +33,7 @@ Likewise, the `Filters` component doesn't care about what store results match th
 
 ## State Management
 
-But what happens in the example above if filters section of the app grows and becomes much more complex over time. It is conceivable that we could be passing the functions for updating filter state for `StoreResultsData` more than 3 or 4 component levels deep.
+But what happens in the example above if the filters section of the app grows and becomes much more complex over time. It is conceivable that we could be passing the functions for updating filter state for `StoreResultsData` more than 3 or 4 component levels deep.
 
 Managing filter state will eventually become incredibly complex. As a developer, coming back to maintain this type of application requires you to basically re-develop your mental model of how state is managed in the feature and where state changes are made, and at which levels. It becomes a mess.
 
