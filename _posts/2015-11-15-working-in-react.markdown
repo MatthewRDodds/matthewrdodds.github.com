@@ -43,7 +43,7 @@ This is where Redux steps in. Redux provides a centralized architecture for mana
 
 Redux provides a central repository for application state, called the "store".
 
-In order to make set state, components dispach "action creators" that they have defined. Actions in Redux are simply wrappers around Redux' `dispatch`. Actions correspond to reducer functions which also must be defined, these are the functions responsible for actually changing state, and defining what state looks like (this all makes much more sense after looking at some [Redux examples](https://github.com/rackt/redux/tree/master/examples)).
+In order to make set state, components dispach "action creators". Actions in Redux are simply wrappers around Redux' `dispatch`. Actions correspond to reducer functions which also must be defined, these are the functions responsible for actually changing state, and defining what state looks like (this all makes much more sense after looking at some [Redux examples](https://github.com/rackt/redux/tree/master/examples)).
 
 The important thing to understand is that Redux solves a problem for large React applications, where state will inevitably become fragile over time as it grows.
 
