@@ -3,26 +3,61 @@
 
   <div class="container-fluid">
 
-    <nav class="navbar top-nav">
-<!--       <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
-    &#9776;
-      </button> -->
-      <!-- <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2"> -->
-        <a class="navbar-brand site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <nav class="navbar navbar-light top-nav">
 
-        <ul class="nav navbar-nav pull-right">
+      <!-- <a class="navbar-brand site-title" href="{{ site.baseurl }}/">
+        <h3 class="display-1">{{ site.title }}</h3>
+      </a> -->
+      <ul class="nav navbar-nav pull-left">
+        <img src="/images/profile.jpeg" class="img-circle profile-pic">
+      </ul>
+      <div class="name-wrapper">
+        <div class="name">Matthew Dodds</div>
+        <div class="title">Full Stack Ruby on Rails Developer</div>
+      </div>
 
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      <!-- </div> -->
+      <ul class="nav navbar-nav pull-right">
+        <div class="row social-wrapper">
+          <a class="nav-brand-link" href="http://www.linkedin.com/in/doddsmatthew">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <a class="nav-brand-link" href="https://github.com/MatthewRDodds">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <a class="nav-brand-link" href="https://twitter.com/Dodds_M">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <a class="nav-brand-link" href="http://instagram.com/mdodds2">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+        </div>
+        <div class="row site-nav-wrapper">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </div>
+      </ul>
     </nav>
-
   </div>
-
 </header>

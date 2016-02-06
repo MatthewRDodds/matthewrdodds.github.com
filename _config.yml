@@ -9,7 +9,7 @@ twitter_username: Dodds_M
 github_username:  MatthewRDodds
 
 # Build settings
-highlighter: pygments
-# highlighter: rouge
+# highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 permalink: pretty
