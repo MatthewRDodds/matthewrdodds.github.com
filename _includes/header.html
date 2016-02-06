@@ -1,14 +1,7 @@
 <header class="site-header">
   <link rel="icon" href="/favicon.ico">
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="hidden-md-down">Large</div>
-      <div class="hidden-sm-down">Medium</div>
-      <div class="hidden-xs-down">Small</div>
-      <div class="">X Small</div>
-    </div>
-
+  <div class="container">
     <nav class="navbar navbar-light top-nav">
       <a class="navbar-brand custom-brand" href="{{ site.baseurl }}/">
         <ul class="nav hidden-md navbar-nav pull-left">
@@ -22,18 +15,6 @@
 
       <ul class="nav navbar-nav pull-right">
         <div class="row social-wrapper">
-          <a class="nav-brand-link" href="http://www.linkedin.com/in/doddsmatthew">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-          <a class="nav-brand-link" href="https://github.com/MatthewRDodds">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
           <a class="nav-brand-link" href="https://twitter.com/Dodds_M">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x"></i>
@@ -46,22 +27,40 @@
               <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
             </span>
           </a>
+          <a class="nav-brand-link" href="https://github.com/MatthewRDodds">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <a class="nav-brand-link" href="http://www.linkedin.com/in/doddsmatthew">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
         </div>
         <div class="row site-nav-wrapper hidden-xs-down">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="/#about">About</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="/#blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/#contact">Contact</a>
           </li>
         </div>
       </ul>
     </nav>
   </div>
 </header>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+     $('.site-nav-wrapper').localScroll({duration: 450});
+  });
+</script>
