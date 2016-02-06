@@ -20,25 +20,63 @@
 }
 
 .social-wrapper {
-  padding: 40px 35px 10px 20px;
-  a {
-    float: right;
+  padding: 50px 35px 10px 0;
+  @media (min-width: 34em) {
+    a { float: right; }
+  }
+  @media (max-width: 48em) {
+    padding: 10px 5px 0 0;
+    a { font-size: .6em; }
+  }
+  @media (max-width: 34em) {
+    text-align: center;
+    a { font-size: .8em; }
   }
 }
-.name-wrapper {
-  height: 135px;
-  padding-top: 50px;
-  margin-left: 35px;
-  float: left;
-  font-family: 'Raleway', sans-serif;
-  .name {
-    font-size: 1.5em;
-    font-weight: bold;
+.navbar-nav {
+  @media (max-width: 34em) {
+    width: 100%;
   }
 }
 
 .site-nav-wrapper {
   padding: 0 35px 10px 20px;
+
+  @media (max-width: 48em) {
+    padding: 0 5px 10px 0;
+  }
+  @media (max-width: 34em) {
+    a { font-size: 14px; }
+    text-align: center;
+  }
+}
+
+.name-wrapper {
+  padding-top: 50px;
+  margin-left: 35px;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  .name {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  @media (max-width: 48em) {
+    font-size: 12px;
+    padding-top: 10px;
+    margin-left: 5px;
+  }
+  @media (max-width: 34em) {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.custom-brand {
+  @media (max-width: 34em) {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .top-nav {
@@ -47,7 +85,7 @@
 
 .profile-pic {
   width: 135px;
-  height: 135px;
+  // height: 135px;
   margin-bottom: 50px;
   margin-top: 20px;
   margin-left: 20px;
