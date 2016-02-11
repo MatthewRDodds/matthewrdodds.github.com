@@ -6,7 +6,7 @@ categories: life
 desc: Remote working made me a better software developer
 keywords: web, internet, work, life, software, development, engineering
 ---
-It has officially been one year since my life changed in a big way. It's been one year since I last "went to work".
+It has officially been one year since my life changed in a big way. It's been one year since I last "went to work."
 
 And the idea of that somehow seems wrong, I feel sometimes as though I'm cheating the system. When I need to get started in the morning, I make some coffee and walk over to my desk. It shouldn't be this easy should it? But it is, and my quality of life has increased tremendously.
 
