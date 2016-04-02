@@ -1,8 +1,17 @@
 .copy {
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+  // font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
 .headline {
-  font-size: 60px;
-  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  line-height: 1.5;
+  // font-family: 'Raleway', sans-serif;
+  // font-family: 'Roboto Slab', serif;
+}
+
+.subtitle {
+  font-size: 28px;
+  line-height: 1.5;
 }

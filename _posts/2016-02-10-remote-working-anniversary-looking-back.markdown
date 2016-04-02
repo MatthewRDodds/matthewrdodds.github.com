@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Remote Working Anniversary, Looking Back"
+title:  "Remote Working Anniversary"
+subtitle:  "Looking Back"
 date:   2016-02-10 20:03:00 -0500
 categories: life
 desc: Remote working made me a better software developer
