@@ -37,6 +37,8 @@
 }
 
 .navbar-nav {
+  margin-left: 0;
+
   @media (max-width: 34em) {
     width: 100%;
   }
@@ -65,14 +67,17 @@
 }
 
 .name-wrapper {
-  padding-top: 50px;
+  padding-top: 40px;
   margin-left: 35px;
   float: left;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   .name {
     font-size: 1.5em;
     font-weight: bold;
+  }
+  @media (max-width: 62em) {
+    margin-left: 0;
   }
   @media (max-width: 48em) {
     font-size: 15px;
@@ -82,6 +87,7 @@
   @media (max-width: 34em) {
     text-align: center;
     width: 100%;
+    margin-left: 0;
   }
 }
 
@@ -92,15 +98,12 @@
   }
 }
 
-.top-nav {
-  // padding: 100px;
-}
-
 .profile-pic {
   width: 135px;
   margin-bottom: 50px;
   margin-top: 20px;
-  // margin-left: 35px;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .section-title {
@@ -130,4 +133,59 @@
 
 .rss-subscribe {
   margin-top: 10px;
+}
+
+// footer
+
+footer {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 20px 70px;
+  margin-top: 80px;
+
+  .grey-text {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  .email {
+    font-size: 15px;
+  }
+
+  .callout {
+    font-size: 15px;
+    max-width: 250px;
+  }
+
+  .white-text {
+    display: inline-block;
+    color: #fff;
+  }
+}
+
+.footer-container {
+  background: #292c2f;
+}
+
+.fa-square {
+  color: #33383b;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
 }
