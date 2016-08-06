@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Exploring Elixir"
-date:   2016-04-02 21:42:17 +0000
+date:   2016-08-06T08:27:47-04:00
 categories: elixir
 desc: On exploring Elixir and functional programming as a Rails developer
 keywords: elixir, web, programming, functional programming, phoenix
