@@ -9,15 +9,18 @@
     </div>
 
     <div class="container">
-      {% include about.html %}
-    </div>
-
-    <div class="container">
-      <div class="content-section" id="blog">
-        <div class="section-title">BLOG</div>
-        <div class="">
-          <div class="">
-            {{ content }}
+      <div class="row">
+        <div class="col-md-6">
+          {% include about.html %}
+        </div>
+        <div class="col-md-6">
+          <div class="content-section" id="blog">
+            <div class="section-title">BLOG</div>
+            <div class="">
+              <div class="">
+                {{ content }}
+              </div>
+            </div>
           </div>
         </div>
       </div>
