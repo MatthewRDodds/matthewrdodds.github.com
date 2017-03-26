@@ -35,7 +35,7 @@ The answer, it's a [struct](http://elixir-lang.org/getting-started/structs.html)
 
 {% highlight elixir linenos %}
 App.Repo.get(App.User, 1)
-%Bugshift.User{
+%App.User{
   id: 1,
   email: "matthewrusselldodds@gmail.com"
   ...}
