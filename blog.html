@@ -1,0 +1,13 @@
+---
+layout: custom_page
+---
+
+{% for post in site.posts %}
+  <div class="media">
+    <div class="media-body">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h4 class="media-heading">{{ post.title }}</h4></a>
+      <small class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>
+      <div class="hidden-sm-down">{{ post.excerpt }}</div>
+    </div>
+  </div>
+{% endfor %}
