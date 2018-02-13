@@ -1,9 +1,9 @@
 title: Matthew Russell Dodds | Freelance Software Developer
-email: mdodds@protonmail.com
+email: matthewrusselldodds@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Full Stack Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://matthewdodds.com" # the base hostname & protocol for your site
+url: "https://matthewdodds.com" # the base hostname & protocol for your site
 twitter_username: Dodds_M
 github_username:  MatthewRDodds
 
