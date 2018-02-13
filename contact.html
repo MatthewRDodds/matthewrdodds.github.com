@@ -1,0 +1,57 @@
+---
+layout: custom_page
+---
+
+<div class="home">
+  <form>
+    <div class="form-group">
+      <label>Your Name</label>
+      <input type="text" id="contact-name" class="form-control" name="name" placeholder="Enter name">
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" id="contact-email" class="form-control" name="email" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label>Message</label>
+      <textarea class="form-control" id="contact-message" name="message"></textarea>
+    </div>
+    <button type="submit" id="contact-form-submit" class="btn btn-primary">Send</button>
+  </form>
+</div>
+
+<script type="text/javascript">
+  $('#contact-form-submit').click(function(e) {
+    e.preventDefault();
+
+    var contactName = $('#contact-name').val(),
+        contactEmail = $('#contact-email').val(),
+        contactMessage = $('#contact-message').val();
+
+    if (contactName=="") {
+      alert("Please enter a name.")
+      return
+    } else if (contactEmail=="") {
+      alert("Please enter a valid email.")
+      return
+    } else if (contactMessage=="") {
+      alert("Please enter a message.")
+      return
+    }
+
+    $.ajax({
+      type: "POST",
+      url: "//docs.google.com/forms/d/e/1FAIpQLSc-i-5UzGHn3QrJU7HZcf46ncTgPLtWvkguQ_pJXr59aJcEtg/formResponse",
+      dataType: "json",
+      data: {
+        'entry.2005620554': contactName,
+        'entry.1045781291': contactEmail,
+        'entry.839337160': contactMessage
+      },
+      complete: function() {
+        alert("Thanks! I'll be in touch soon.");
+        window.location.href = "/"
+      }
+    });
+  });
+</script>
